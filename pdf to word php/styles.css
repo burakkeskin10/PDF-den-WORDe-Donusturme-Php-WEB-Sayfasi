@@ -1,0 +1,226 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+/* File Upload */
+input[type="file"] {
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+.hidden-upload {
+    display: none;
+}
+
+.custom-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .custom-upload-label:hover {
+        background-color: #2980b9;
+    }
+
+/* Header */
+.header {
+    background-color: #e74c3c; /* canlı kırmızı */
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    /* Logo alanı */
+    .header .logo img {
+        height: 70px;
+        display: block;
+    }
+
+/* Menü */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+    .menu a:hover {
+        text-decoration: underline;
+    }
+
+/* Ana İçerik */
+.main-content {
+    padding: 40px;
+    min-height: 400px;
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+    background-color: #e74c3c; /* canlı kırmızı */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* PDF Yükleme Arayüzü */
+.pdf-container {
+    text-align: center;
+}
+
+    .pdf-container h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #333;
+    }
+
+.pdf-btn {
+    padding: 10px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    .pdf-btn:hover {
+        background-color: #2980b9;
+    }
+
+.pdf-message {
+    margin-top: 15px;
+    color: #27ae60;
+    font-weight: bold;
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+    .logo-link img {
+        height: 60px;
+        margin-right: 12px;
+    }
+
+.logo-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.features-section {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.feature-box {
+    width: 220px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+    .feature-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .feature-box i {
+        font-size: 36px;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+
+    .feature-box h3 {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .feature-box p {
+        font-size: 14px;
+        color: #666;
+    }
+.loading-spinner {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+    .download-btn:hover {
+        background-color: #27ae60;
+    }
+
+
+
